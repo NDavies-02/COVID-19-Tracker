@@ -1,16 +1,9 @@
-# Covid-19 Tracker
+# Fork of COVID-19 Tracker
+Based on https://twitter.com/PEDELCODE/status/1285174445074767872.
+Reworked the code slightly by:
+- Changing the messages presented to user
+- Allowing users to view more than one country within a single program run
+*The code was re-written, based on the Facebook post: https://www.facebook.com/pedelcode/photos/pcb.138836911221991/138836847888664/
 
-## Here's a Covid-19 Tracker made using the all new python module **covid**
-
-> Open console in your editor
->> Clone the repository
-
-    virtualenv ENV
-    source ENV/bin/activate
-
-    pip install -r requirements.txt
-
-    python CovidTracker.py
-
->> Enter your country name : and press return
-> That's it!
+You can recreate this yourself easily once you use pip to install the covid library:
+pip install covid
