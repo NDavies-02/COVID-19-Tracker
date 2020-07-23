@@ -1,3 +1,4 @@
+import time
 from covid import Covid
 def tracker():
     covid = Covid()
@@ -11,10 +12,11 @@ def tracker():
     except ValueError:
         print("Country not found, please check input.")
         print("Try alternative spellings of names. Sub-countries like Wales may not work")
-    answer = input("View another countries COVID data? If you choose N, program ends. Y/N")
+    answer = input("View another countries COVID data? (N to end program.) Y/N: ")
 
     if answer == 'N' or answer == 'n':
         print("Exiting program...")
+        time.sleep(1)
         
     elif answer == 'Y' or answer == 'y':
         tracker()
