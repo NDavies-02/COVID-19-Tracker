@@ -1,0 +1,9 @@
+Prerequisites:
+- Requires Python 3 (Prefereably 3.8.5 or latest version)
+- Python must be in system PATH
+- Installed covid library
+If the covid library is not installed, you can install it in a command window using:
+
+pip install covid
+
+To run the program, double-click 'run.py'. Please read the closed issues for extra notes.
