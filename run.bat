@@ -1,0 +1,1 @@
+python "COVID-19 Tracker.py"
