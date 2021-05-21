@@ -20,10 +20,12 @@ Later changes (21 May 2021, version 2.0):
 - Removed .bat method of running program
 
 # Prerequisites
+
 - Requires Python 3.6 or above, `>=3.9.2` preferred and installed in PATH
 - Install requirements.txt via `pip`
 
 # Download & run
+
 1. Download repo using `git clone https://github.com/NDavies-02/COVID-19-Tracker.git`
 2. `pip install -r requirements.txt`
 3. `python3 ./'COVID-19 Tracker.py'`
