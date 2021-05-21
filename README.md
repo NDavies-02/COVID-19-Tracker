@@ -1,5 +1,7 @@
 # COVID-19 Statistics
 
+[![CodeQL](https://github.com/NDavies-02/COVID-19-Tracker/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/NDavies-02/COVID-19-Tracker/actions/workflows/codeql-analysis.yml)
+
 Fork of PEDEL-CODE/Covid-Tracker from commit `#872381b`.
 This version is the CLI version and does not include Tkinter GUI from later upstream commits (`#d8cc80c`).
 
