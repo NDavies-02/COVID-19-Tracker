@@ -8,6 +8,7 @@ This version is the CLI version and does not include Tkinter GUI from later upst
 This is a simple Python program to quickly view basic statistics on COVID-19 cases and deaths for a given country.
 
 The following changes were made in the initial fork (release v1.3)
+
 - The messages shown to the user were updated to be more friendly.
 - Multiple countries can be viewed within a single program run.
 
