@@ -1,11 +1,11 @@
 altgraph==0.17
-beautifulsoup4==4.9.1
-certifi==2020.6.20
-chardet==3.0.4
-covid==2.3.0
-idna==2.10
-pydantic==1.6.1
-PyInstaller==3.6
-requests==2.24.0
-soupsieve==2.0.1
-urllib3==1.25.9
+beautifulsoup4==4.9.3
+certifi==2020.12.5
+chardet==4.0.0
+covid==2.4.1
+idna==2.10 #Not upgrading - conflicts with requests
+pydantic==1.8.2
+PyInstaller==4.3
+requests==2.25.1
+soupsieve==2.2.1
+urllib3==1.26.4

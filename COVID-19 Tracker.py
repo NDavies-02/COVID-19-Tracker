@@ -1,24 +1,37 @@
+#Imports
 import time
 from covid import Covid
-def tracker():
+
+#Stats function
+def stats():
     covid = Covid()
     country = input("Enter country you wish to view COVID-19 data for: ")
+
+    #Effective aliases for US and UK
+    if country in ('UK', 'U.K.', 'GB', 'G.B.', 'Great Britain', 'Britain'):
+        country = 'United Kingdom'
+    if country in ('United States', 'USA', 'U.S.A', 'America'):
+        country = 'US'
+        
     try:
-     data = covid.get_status_by_country_name(country)
-     print(f"Showing details for {country}")
-     for key in data:
+        data = covid.get_status_by_country_name(country)
+        print(f"Here are the latest statistics for {country}:")
+        print("")
+        for key in data:
             print(f"{key} : {data[key]}")
 
     except ValueError:
-        print("Country not found, please check input.")
-        print("Try alternative spellings of names. Sub-countries like Wales may not work")
-    answer = input("View another countries COVID data? (N to end program.) Y/N: ")
+        print(f"{country} not found. Try an alternative name or spelling, like US instead of USA.")
+    print("")
+    answer = input("View data for another country? (Y or anything else to quit): ")
+    print("")
 
-    if answer == 'N' or answer == 'n':
+    if answer in ('Y', 'y', 'yes', 'Yes', 'YES'):
+        stats()
+
+    else:
         print("Exiting program...")
-        time.sleep(1)
-        
-    elif answer == 'Y' or answer == 'y':
-        tracker()
+        time.sleep(0.5)
 
-tracker()
+#Initial call
+stats()
