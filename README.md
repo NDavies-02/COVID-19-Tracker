@@ -3,23 +3,17 @@
 Fork of PEDEL-CODE/Covid-Tracker from commit `#872381b`.
 This version is the CLI version and does not include Tkinter GUI from later upstream commits (`#d8cc80c`).
 
-Changes in the initial fork:
+This is a simple Python program to quickly view basic statistics on COVID-19 cases and deaths for a given country.
+
+The following changes were made in the initial fork (release v1.3)
 - The messages shown to the user were updated to be more friendly.
 - Multiple countries can be viewed within a single program run.
 
-Later changes (21 May 2021, version 2.0):
-- Added aliases for US and UK (workaround for issue #1)
-- Fix bad indentation (PYL-W0311) (issue #6)
-- Optimised if statement (now uses in as per PYL-R1714/issue #5)
-- Improved spacing for readability
-- Changed how the option for viewing further countries data works:
-  - More variations of Y/yes accepted
-  - All other input will end program
-- Removed .bat method of running program
+Please see the changes made in the final release v2.0. It is advisale not to download older versions as they use significantly older packages.
 
 # Prerequisites
 
-- Requires Python 3.6 or above, `>=3.9.2` preferred and installed in PATH
+- Requires `Python 3.6` or above, `>=3.9.2` preferred and installed in PATH
 - Install requirements.txt via `pip`
 
 # Download & run
